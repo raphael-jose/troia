@@ -1,0 +1,75 @@
+.fundo{
+      background-image: url("../imagem/indexBackground.JPG");
+      background-repeat:no-repeat;
+}
+
+
+
+.mainIndex {
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.displayPrincipal {
+    height: 400%;
+    width: 400%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imagem {
+    width: 700px;
+    height: 700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imagem/pergaminho.png");
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.displayPrincipal p {
+    width: 60%;
+    height: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Monotype Corsiva;
+    font-size: 170%;
+    text-align:justify; 
+    
+
+}
+
+
+.displayPrincipal button{
+    background-color: rgb(240, 11, 11);
+    margin: 2% auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.displayPrincipal button a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border-radius: 1%;
+    transition: 0.3s;
+}
+
+.displayPrincipal button a:hover {
+    color:rgb(252, 0, 0);
+}

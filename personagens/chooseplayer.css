@@ -1,0 +1,106 @@
+.backgroundfundo {
+    height: 100%;
+    width: 100%;
+    background-image: url(./background/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.backgroundfundo h1{
+    display: block;
+    font-family: monotype corsiva;
+    font-weight: bold;
+    background-image: url(./personalidade/background.jpg);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+
+.mainCharacter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.boxCharacter {
+    height: 70%;
+    width: 70%;
+    margin: 2%; 
+    padding: 2%;
+    background-image: url(./personalidade/background.jpg);
+    border-radius: 25px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.boxCharacter h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 300%;
+    margin: 0 15% ;
+}
+
+.boxCharacter .colorBox1{
+    border-radius: 25px;
+    border: 3px solid black;
+    background-image: url(./personalidade/Odisseu.jpeg);
+    height: 180px;
+    width: 180px;
+    }
+
+.boxCharacter .colorBox2{
+    border-radius: 25px;
+    border: 3px solid black;
+    background-image: url(./personalidade/heitor.jpg);
+    height: 180px;
+    width: 180px;
+   
+}
+
+.boxCharacter .colorBox3{
+    border-radius: 25px;
+    border: 3px solid black;
+    background-image: url(./personalidade/aquiles.jpg);
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 180px;
+    
+}
+
+.boxCharacter p {
+    font-family: 'monotype corsiva', serif;
+    text-align: center; 
+    font-size: 200%; 
+}
+.boxCharacter button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'monotype corsiva', serif;
+    border: 1px solid black;
+    border-radius: 25px;  
+}
+.boxCharacter button a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.boxCharacter button:hover {
+    transform: scale(1.2);    
+}
+
+.boxCharacter button a:hover {
+    color:rgb(252, 113, 0);
+}

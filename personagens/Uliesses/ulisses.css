@@ -1,0 +1,83 @@
+.bodyBackgroundForest {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/forest.jpeg);
+}
+
+.levelTextDisplay {
+    height: 400%;
+    width: 60%;
+    margin: 13% auto 20% auto; 
+    padding: 50px;
+    background-color: rgb(255, 255, 139);
+    border-radius: 25px;
+    border: 3px solid black;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelTextDisplay p {
+    font-family: 'Cinzel', serif;
+    text-align: center; 
+    font-size: 150%;
+}
+
+.levelTextDisplay .escolha {
+    font-family: 'Cinzel', serif;
+    text-align: center; 
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.levelTextDisplay button {
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.levelTextDisplay button:hover {
+    transform: scale(1.1);  
+    color:rgb(252, 113, 0);
+}
+
+@media (max-width: 870px) {
+    .initialDisplay {
+        font-size: 80%;
+        padding: 10%;
+        text-align: center;
+    }
+
+    .mainCharacter {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .boxCharacter {
+        margin: 50px auto;
+        padding: 10%;
+    }
+
+    .boxCharacter h2 {
+        margin: 0 30%;
+        font-size: 250%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .bodyBackgroundCharacter h1 {
+        font-size: 250%;
+        width: 90%;
+        height: fit-content;
+    }
+}
