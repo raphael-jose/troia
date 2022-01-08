@@ -1,5 +1,5 @@
 .fundo{
-      background-image: url("../imagem/indexbackground.JPG");
+      background-image: url("fundo.JPG");
       background-repeat:no-repeat;
 }
 
@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../imagem/pergaminho.png");
+    background-image: url("pergaminho.png");
     background-repeat:no-repeat;
     background-position: center;
 }
