@@ -1,6 +1,9 @@
 .fundo{
-      background-image: url("fundo.JPG");
+      background-image: url("../imagem/fundo.jpg");
       background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
 }
 
 
@@ -31,7 +34,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("pergaminho.png");
+    background-image: url("../imagem/pergaminho.png");
     background-repeat:no-repeat;
     background-position: center;
 }
