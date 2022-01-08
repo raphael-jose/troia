@@ -51,7 +51,7 @@
 
 
 .displayPrincipal button{
-    background-color: rgb(240, 11, 11);
+    background-color: rgb(217, 240, 11);
     margin: 2% auto;
     text-align: center;
     font-family: sans-serif;
@@ -71,5 +71,5 @@
 }
 
 .displayPrincipal button a:hover {
-    color:rgb(252, 0, 0);
+    color:rgb(17, 0, 252);
 }
