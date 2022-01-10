@@ -1,0 +1,114 @@
+.fundo {
+    background-image: url(../imagem/fundo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mainIndex {
+  display: flex;  
+  align-items: center;
+  justify-content: center; 
+}
+
+.displayPrincipal {
+  height: 400%;
+  width: 400%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.imagem {
+  width: 700px;
+  height: 700px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imagem/pergaminho.png");
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+
+.displayPrincipal p {
+  width: 60%;
+  height: 60%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Monotype Corsiva;
+  font-size: 150%;
+  text-align:justify; 
+  
+
+}
+
+.imagem button {
+  background-color: rgb(217, 240, 11);
+  margin: 2% auto;
+  font-size: 100%;
+  text-align: center;
+  font-family: monotype corsiva;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.imagem button:hover {
+  transform: scale(1.1);  
+  color:rgb(252, 113, 0);
+}
+
+@media (max-width: 870px) {
+  .initialDisplay {
+      font-size: 80%;
+      padding: 10%;
+      text-align: center;
+  }
+
+  .mainCharacter {
+      flex-flow: column wrap;
+      justify-content: center;
+  }
+
+  .boxCharacter {
+      margin: 50px auto;
+      padding: 10%;
+  }
+
+  .boxCharacter h2 {
+      margin: 0 30%;
+      font-size: 250%;
+  }
+
+}
+
+
+footer{ 
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  bottom:0px;
+  border:2px solid;
+  border-color: black;
+  border-radius: 5%;
+  color:rgb(204, 248, 10);
+     
+}
+
+
+@media (max-width: 600px) {
+  .bodyBackgroundCharacter h1 {
+      font-size: 250%;
+      width: 90%;
+      height: fit-content;
+  }
+}

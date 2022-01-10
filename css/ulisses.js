@@ -1,9 +1,10 @@
+
 function f (text, optionA, optionB) {
     var escolha = prompt(text).toUpperCase();
 
-    if(escolha === "A"){
+    if(escolha === "1"){
         window.location.href = `./${optionA}`;
-    } else if (escolha === "B"){
+    } else if (escolha === "2"){
         window.location.href = `./${optionB}`;
     } else {
         alert("Por favor se atenha as opções propostas");
@@ -12,11 +13,11 @@ function f (text, optionA, optionB) {
 }
 
 function gameOver() {
-    alert("Você morreu! Redirecionando para a página principal.");
+    alert("Você Perdeu! Voltando para o ponto de partida.");
     window.location.href = "./index.html"
 }
 
 function vGameOver() {
-    alert("Parabéns você venceu! Redirecionando para a página principal.")
+    alert("Parabéns você venceu! Voltando para casa como heroi!.")
     window.location.href = "./index.html"
 }
