@@ -1,5 +1,6 @@
 .backgroundfundo {
-    background-size: cover;
+    height: 100%;
+    width: 100%;
     background-image: url(../imagem/background.png);
     background-repeat: no-repeat;
     display: flex;
@@ -41,17 +42,13 @@
 }
 
 .boxCharacter h2 {
-    display:flex;
-    align-items: center;
-    font-family: monotype corsiva;
+    font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 300%;
     margin: 0 15% ;
 }
 
 .boxCharacter .colorBox1{
-    display:flex;
-    align-items: center;
     border-radius: 25px;
     border: 3px solid black;
     background-image: url(../personalidade/Odisseu.jpeg);
