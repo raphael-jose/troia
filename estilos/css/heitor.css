@@ -75,11 +75,11 @@ footer{
     width: 100%;
     bottom:0px;
     border:2px solid;
-    border-color: black;
-    border-radius: 5%;
+    background-color: gray;
     color:rgb(204, 248, 10);
        
 }
+       
 
 @media (max-width: 870px) {
     .initialDisplay {

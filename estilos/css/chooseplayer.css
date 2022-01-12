@@ -1,121 +1,138 @@
-.backgroundfundo {
-    background-size: cover;
+body {
+    display: block;
+    background-image: url(../../imagem/fundchoose.jpg);
     background-position: center;
-    background-attachment: fixed;
-    background-image: url(../../imagem/background.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
+    background-attachment: fixed;
+     
 }
 
-.backgroundfundo h1{
-    display: block;
+main {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.titulo {display: flex;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+   justify-content: center; 
+
     font-family: monotype corsiva;
     font-weight: bold;
     background-image: url(../../personalidade/background.jpg);
     border: 3px solid black;
     border-radius: 25px;
-    padding: 25px;
-}
-
-
-.mainCharacter {
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-.boxCharacter {
-    height: 70%;
-    width: 70%;
-    margin: 2%; 
-    padding: 2%;
-    background-image: url(../../personalidade/background.jpg);
-    border-radius: 25px;
-    border: 3px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-
-.boxCharacter h2 {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 300%;
-    margin: 0 15% ;
-}
-
-.boxCharacter .colorBox1{
-    border-radius: 25px;
-    border: 3px solid black;
-    background-image: url(../../personalidade/Odisseu.jpeg);
-    height: 180px;
-    width: 180px;
-    }
-
-.boxCharacter .colorBox2{
-    border-radius: 25px;
-    border: 3px solid black;
-    background-image: url(../../personalidade/heitor.jpg);
-    height: 180px;
-    width: 180px;
-   
-}
-
-.boxCharacter .colorBox3{
-    display: block;
-    border-radius: 25px;
-    border: 3px solid black;
-    background-image: url(../../personalidade/aquiles.jpg);
-    background-repeat: no-repeat;
-    height: 180px;
-    width: 180px;
+        
     
 }
 
-.boxCharacter p {
-    font-family: 'monotype corsiva', serif;
-    text-align: center; 
-    font-size: 200%; 
+section {
+    
+         margin: auto;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+.personagem {
+    
+     display: flex;
+    background-image: url(../../personalidade/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;    
+    border-radius: 25px;
+    border: 3px solid black;    
+    align-content: center;
+    flex-direction: column;
+    margin:20px;
+    padding: 20px;
+    text-align: justify;
+    font-family: monotype corsiva;
+    font-size: 30px;
+   
 }
-.boxCharacter button {
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    font-size: 150%;
-    font-family: 'monotype corsiva', serif;
-    border: 1px solid black;
-    border-radius: 25px;  
-}
-.boxCharacter button a {
-    text-decoration: none;
-    color: black;
-    margin: 20px;
-    border-radius: 10%;
-    transition: 0.3s;
+.foto-personagem{
+    border-radius: 25px;
+    border: 3px solid black;
+    height: 180px;
+    width: 180px;
 }
 
-.boxCharacter button:hover {
+button{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'monotype corsiva', serif;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+ button:hover {
     transform: scale(1.2);    
 }
 
-.boxCharacter button a:hover {
+ button :hover {
     color:rgb(252, 113, 0);
 }
 
 
 
-footer{ 
-      display:flex;
-    justify-content: center;
-    width: 100%;
-    bottom:0px;
-    border:2px solid;
-    border-color: black;
-    border-radius: 5%;
-    color:rgb(204, 248, 10);
-       
+footer{
+     position:fixed;
+     left:0;
+     text-align: center;
+     width: 100%;
+      bottom:0px;
+      border:1px solid;
+      background-color: gray;
+      color:rgb(204, 248, 10);        
+  }
+   
+
+a {
+    text-decoration: none;
+    color: #d9fd08;
 }
+
+.personagem:hover .bio-personagem, .personagem:hover .select {
+    display: inline-flex;
+}
+
+
+
+@media (max-width: 700px){
+    
+    .personagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        width: 100vw;
+    }
+
+        
+        header{
+          display: flex;
+          flex-direction: column;
+     
+        }
+     
+       .container {
+          display: flex;
+          flex-direction: column;
+       }
+      
+     }
