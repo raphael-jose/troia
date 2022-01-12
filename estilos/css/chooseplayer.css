@@ -1,7 +1,8 @@
 .backgroundfundo {
-    height: 100%;
-    width: 100%;
-    background-image: url(../imagem/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../../imagem/background.png);
     background-repeat: no-repeat;
     display: flex;
     flex-flow: row wrap;
@@ -13,7 +14,7 @@
     display: block;
     font-family: monotype corsiva;
     font-weight: bold;
-    background-image: url(../personalidade/background.jpg);
+    background-image: url(../../personalidade/background.jpg);
     border: 3px solid black;
     border-radius: 25px;
     padding: 25px;
@@ -31,14 +32,13 @@
     width: 70%;
     margin: 2%; 
     padding: 2%;
-    background-image: url(../personalidade/background.jpg);
+    background-image: url(../../personalidade/background.jpg);
     border-radius: 25px;
     border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    flex-grow: 1;
 }
 
 .boxCharacter h2 {
@@ -51,7 +51,7 @@
 .boxCharacter .colorBox1{
     border-radius: 25px;
     border: 3px solid black;
-    background-image: url(../personalidade/Odisseu.jpeg);
+    background-image: url(../../personalidade/Odisseu.jpeg);
     height: 180px;
     width: 180px;
     }
@@ -59,16 +59,17 @@
 .boxCharacter .colorBox2{
     border-radius: 25px;
     border: 3px solid black;
-    background-image: url(../personalidade/heitor.jpg);
+    background-image: url(../../personalidade/heitor.jpg);
     height: 180px;
     width: 180px;
    
 }
 
 .boxCharacter .colorBox3{
+    display: block;
     border-radius: 25px;
     border: 3px solid black;
-    background-image: url(../personalidade/aquiles.jpg);
+    background-image: url(../../personalidade/aquiles.jpg);
     background-repeat: no-repeat;
     height: 180px;
     width: 180px;
@@ -108,7 +109,7 @@
 
 
 footer{ 
-    display:flex;
+      display:flex;
     justify-content: center;
     width: 100%;
     bottom:0px;
